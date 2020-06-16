@@ -1,0 +1,107 @@
+/* Basic CSS resets*/
+
+.fonte{
+	font-family: 'Anton', sans-serif;
+	font-size: 18px;
+	background: #fdfefe;
+	justify-content: center;
+	align-items: center;
+	content: '\f07a';
+	
+}
+
+.botoes{
+
+position: absolute;
+z-index: 10;
+left: 1%;
+content: '\f07a';
+width: 70px;
+height: 30px;
+padding: 10px;
+margin-left: 20px;
+border: none;
+border-radius: 10px;
+background: #fdfefe;
+box-shadow: 10px 10px 10px rgb(209, 217, 230, 0.75);
+transition: all 1s;
+justify-content: center;
+align-items: center;
+}
+
+.logo{
+
+position: absolute;
+z-index: 10;
+top: 35%;
+left: 36%;
+font-size: 50px;
+font-family: 'Anton', sans-serif;
+
+}
+* {
+	margin: 0px;
+	border: 0px;
+	padding: 0px;
+}
+*:focus {
+	outline: 0 !important;
+  }
+  *{
+	overflow: hidden;
+	padding:0;
+	margin:0;
+  }
+  .container{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	height: 100vh;
+	background: #ecf0f3;
+  }
+  .password-box{
+	display: flex;
+  }
+  #pass{
+	height: 40px;
+	width: 300px;
+	font-family: 'Anton', sans-serif;
+	font-size:14px;
+	padding: 10px 20px;
+	border: none;
+	border-radius: 10px;
+	background-image: linear-gradient(to bottom right, #fdfefe, #fff);
+	box-shadow: inset 5px 5px 10px #d1d9e6;
+  }
+  
+  .fa{
+	font-size: 19px;
+	color: #8e94a2;
+	transition: all 1s;
+  }
+  
+  .view-pass{
+		content: '\f07a';
+	  font-family: 'Anton', sans-serif;
+	width: 60px;
+	height: 60px;
+	padding: 10px;
+	margin-left: 20px;
+	border: none;
+	border-radius: 10px;
+	background: #fdfefe;
+	box-shadow: 10px 10px 10px rgb(209, 217, 230, 0.75);
+	transition: all 1s;
+	justify-content: center;
+	align-items: center;
+  }
+  .view-pass:hover{
+	transform: translateY(5px);
+  }
+  .view-pass:active{
+	  background-image: linear-gradient(to bottom right, #fdfefe, #fff);
+	box-shadow: inset 5px 5px 10px #d1d9e6;
+  }
+  button{
+	cursor: pointer;
+  }
