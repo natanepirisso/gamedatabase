@@ -1,0 +1,60 @@
+.ddb{
+    border:2px solid darkblue !important;
+}
+.contactBox{
+
+    width: 100px;
+    height: 50px;
+    border: 2px solid gray;
+    padding-left: 10px;
+}
+.contactBox:hover{
+    background-color: rgb(216, 215, 215);
+}
+#labelCard{
+font-size: 28px;
+
+
+}
+#cadastro{
+    color: black !important ;
+    text-decoration: none;
+    font-weight: bold;
+
+}
+#cadastro:link{
+    color: black;
+}
+    body{
+    background-image: url("../assets/images/controle.jpg");
+    background-size: cover ;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+}
+.bordaarredondada{
+    border-radius: 30px !important;
+    background-color: white !important;
+    opacity: 0.8;
+
+}
+
+.bordaarredondada:hover{
+    opacity: 0.9;
+}
+a{
+    color: white;
+    text-decoration: none;
+}
+a:link{
+    color: white;
+}
+a:hover{
+    color: white;
+    text-decoration: none;
+}
